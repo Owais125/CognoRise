@@ -1,0 +1,9 @@
+.section__subtitle{
+    display: inline;
+    background: #ffca2c;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    border-radius: 32px;
+    padding: 2px;
+    height: 35px;
+}
