@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+body{
+    background-image: url(./todo7.avif);
+    background-position: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+#input{
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    font-size:20px;
+    font-weight:400;
+    background-color: transparent;
+    cursor: pointer;
+    
+
+}
+button{
+    width: 90px;
+    height: 30px;
+    font-size:15px;
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+    background:url(./todo9.jfif);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black , -5px -5px 10px grey;
+    cursor: pointer;
+    
+}
+li{
+    font-size:25px;
+    font-weight:400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+button:hover{
+    background-color: transparent;
+}
+ .mainDiv{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*li{
+    border: 2px solid black;
+    padding: 0;
+    width: 300px;
+} */
+#list {
+    list-style: none; /* Removes the default bullet points */
+    padding: 0;       /* Removes padding */
+    margin: 0;        /* Removes margin */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#list li {
+    display: inline-block;  /* Makes the list items display inline */
+    width: 400px;           /* Sets the width of each list item */
+    height: 120px;          /* Sets the height of each list item */
+    margin-right: 10px;     /* Adds space between list items */
+    vertical-align: middle;    /* Aligns the top of each list item */
+    box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+    border: 1px solid #000;
+    text-align: center;
+    overflow: hidden;
+
+}
